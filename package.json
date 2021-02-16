@@ -4,7 +4,6 @@
     "description": "primera practica con pug",
     "main": "index.js",
     "scripts": {
-
         "dev": "nodemon -e js ,pug",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
