@@ -1,3 +1,23 @@
 extends layouts/layout.pug
 block contenido
-  h1 CHINGA TU MADRE CIRILO Y TU TAMBIEN PONY
+  .row.m-0(style='background: #A723F8;')
+    .col.s12.p-0
+      ul.collapsible.m-0(style='border:none !important;margin-top: 10px;')
+        li
+          .col.s10
+            .col.s4
+              a(href='/')
+                img.logo(src='../static/img/logo.png')
+            .col.s8.l4.offset-l1.titulo
+              h5.center.white-text Nega Nebulus
+              p.center.white-text #Nega_Nebulus
+          .collapsible-header.transparent.col.s2.titulo1(style='border:none; ')
+            a(href='#' style='border: none; ')
+              i.center.material-icons.m-0.black-text(style='') menu
+          .col.s12.collapsible-body.transparent.p-0
+            span
+              .collection(style='background: #513CE9')
+                a.white-text.collection-item(href='/nosotros') NOSOTROS
+                a.white-text.collection-item(href='/derechos') MENU
+                a.white-text.collection-item(href='/galeria') GALERIA
+                a.white-text.collection-item(href='/contacto') CONTACTO
