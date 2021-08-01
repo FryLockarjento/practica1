@@ -13,7 +13,6 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-
 //Para decir que las plantillas seran de pug
 app.set('view engine', 'pug');
 //Para decir donde se encuentran los archivos pug

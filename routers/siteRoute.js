@@ -1,6 +1,9 @@
 const express = require('express')
-const router = express.Router()
+const admin = require('firebase-admin')
+const router = express.Router() 
 
+const firebase = require('firebase')
+//const { app } = require('firebase-admin')
 
 router.get('/', (req, res) => {
     res.render('index')
