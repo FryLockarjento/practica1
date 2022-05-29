@@ -2,6 +2,15 @@ html {
   height: 100%;
 }
 
+.piePagina {
+  background-color: black;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  color: white;
+}
+
 ul.collection,
 li.collection-item {
   border: none !important;
@@ -23,14 +32,7 @@ li.collection-item {
   margin: 0px;
 }
 
-.piePagina {
-  background-color: black;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  height: 100px;
-  color: white;
-}
+
 
 .collection .collection-item {
   background-color: transparent;
